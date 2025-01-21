@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="https://github.com/r-ddle.png"
+      type="image/x-icon"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Learning JavaScript - Word Analytics</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="background"></div>
+    <h1 class="first-heading">
+      Word<span class="first-heading--span">Analytics</span>
+    </h1>
+
+    <div class="container">
+      <textarea
+        class="textarea"
+        placeholder="Enter your text"
+        spellcheck="false"
+        cols="none"
+      ></textarea>
+      <section class="stats">
+        <section class="stat">
+          <span class="stat__number stat__number--words">0</span>
+          <h2 class="stat__title">Words</h2>
+        </section>
+        <section class="stat">
+          <span class="stat__number stat__number--characters">0</span>
+          <h2 class="stat__title">Characters</h2>
+        </section>
+        <section class="stat">
+          <span class="stat__number stat__number--twitter">4000</span>
+          <h2 class="stat__title stat__title--twitter">Twitter</h2>
+        </section>
+        <section class="stat">
+          <span class="stat__number stat__number--discord">2000</span>
+          <h2 class="stat__title stat__title--discord">Discord</h2>
+        </section>
+      </section>
+    </div>
+
+    <footer class="footer">
+      <small class="copyright"
+        >&copy; Copyright by R-ddle. All rights reserved.</small
+      >
+      <small class="data">Last checked limits: 22 days ago</small>
+    </footer>
+  </body>
+
+  <script src="script.js"></script>
+</html>
