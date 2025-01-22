@@ -62,6 +62,7 @@ body {
   font-size: 22px;
   word-wrap: break-word;
   white-space: pre-wrap;
+  text-wrap:unrestricted
 }
 
 .textarea::placeholder {
