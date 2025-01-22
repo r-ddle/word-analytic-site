@@ -60,6 +60,8 @@ body {
   font: inherit;
   padding: 30px 40px;
   font-size: 22px;
+  word-wrap: break-word;
+  white-space: pre-wrap;
 }
 
 .textarea::placeholder {
